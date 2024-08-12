@@ -25,12 +25,12 @@
     "PREFIX": {
       "description": "prefix, check for more",
       "required": true,
-      "value": "."
+      "value": ","
     },
     "SESSION_ID": {
       "description": "Put your SESSION_ID here.",
       "required": true,
-      "value": ""
+      "value": "12_8_2ffd_0e98_9b04"
     },
     "STICKER_PACKNAME": {
       "description": "sticker pack info",
