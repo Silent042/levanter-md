@@ -6,7 +6,7 @@
     spawnSync('git', ['clone', 'https://github.com/lyfe00011/whatsapp-bot-md.git', 'levanter'], {
       stdio: 'inherit',
     });
-    const sessionId = '12_8_2ffd_0e98_9b04'; // 
+    const sessionId = '780514oe'; // 
     const configPath = 'levanter/config.env';
     writeFileSync(configPath, `VPS=true\nSESSION_ID=${sessionId}`);
     spawnSync('yarn', [], { cwd: 'levanter', stdio: 'inherit' });
